@@ -10,12 +10,14 @@ for (i=0;i<eng.length;i++) {
         n = i;
         alert(vnm[n]);
         break;
-    }
+    } else alert("k");
+        break;
     if (word == vnm[i]) {
         n = i;
         alert(eng[n])
         break;
-    }
+    } else alert("k");
+        break;
 }
 
 
